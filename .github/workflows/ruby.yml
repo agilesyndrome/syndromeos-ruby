@@ -19,5 +19,5 @@ jobs:
     - name: Build Ruby 2.7.0
       run: make RUBY_MAJOR=2 RUBY_MINOR=7 RUBY_PATCH=0 ci
     - name: Build Ruby 2.6.5
-      run: make RUBY_MAJIR=2 RUBY_MINOR=6 RUBY_PATCH=5 ci
+      run: make RUBY_MAJOR=2 RUBY_MINOR=6 RUBY_PATCH=5 ci
 
